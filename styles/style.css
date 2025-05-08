@@ -20,7 +20,20 @@ body {
   padding-right: 1rem;
   padding-left: 1rem;
 }
-
+.header_link {
+  position: absolute;
+  top: 19px;
+  right: 35px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(111, 111, 229);
+  width: 120px;
+  height: 25px;
+  padding: 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+}
 
 .navigation {
   display: flex;
@@ -29,7 +42,9 @@ body {
   justify-content: flex-start;
   gap: 4rem;
   margin-top: 1rem;
+  position: relative;
 }
+
 .nav_menu_items {
   display: flex;
   flex-direction: row;
@@ -37,6 +52,17 @@ body {
   list-style: none;
 }
 .nav_menu_items li a {
+  font-size: 13px;
+  font-weight: 500;
   text-decoration: none;
   color: black;
+}
+.header_bottom {
+  display: flex;
+}
+.header_bottom_left {
+  flex-basis: 50%;
+}
+.header_bottom_right {
+  flex-basis: 50%;
 }
