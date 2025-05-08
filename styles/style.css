@@ -1,0 +1,42 @@
+
+@import url(/styles/media.css);
+
+@import url(/styles/fonts.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'poppins';
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+.nav_menu_items {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+.nav_menu_items li a {
+  text-decoration: none;
+  color: black;
+}
