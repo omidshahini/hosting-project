@@ -126,7 +126,6 @@ body {
   border: 2px solid rgb(137, 186, 65);
   width: 40%;
   font-size: 14px;
-  border-radius: 100px;
 }
 .header_bottom_right {
   flex-basis: 50%;
