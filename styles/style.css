@@ -33,6 +33,10 @@ body {
   padding: 5px 5px;
   text-align: center;
   border-radius: 10px;
+  transition: 500ms;
+}
+.header_link:hover {
+  background-color: rgb(137, 186, 65);
 }
 
 .navigation {
@@ -51,18 +55,82 @@ body {
   gap: 10px;
   list-style: none;
 }
+
 .nav_menu_items li a {
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
   color: black;
+  transition: 700ms;
+}
+.nav_menu_items li a:hover {
+  color: rgb(137, 186, 65);
+  font-size: 16px;
 }
 .header_bottom {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
 }
 .header_bottom_left {
   flex-basis: 50%;
 }
+.header_bottom_left h4 {
+  color: rgb(97, 97, 215);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.4rem;
+}
+.header_bottom_left p {
+  font-size: 13px;
+  font-weight: 200;
+  margin-top: 1rem;
+  line-height: 120%;
+}
+.header_bottom_left_buttons {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.header_bottom_left_buttons button:first-child {
+  background-color: rgb(137, 186, 65);
+  color: white;
+  width: 35%;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  transition: 500ms;
+  border: none;
+}
+.header_bottom_left_buttons button:first-child:hover {
+  border: 2px solid rgb(77, 45, 218);
+  width: 40%;
+  font-size: 14px;
+}
+.header_bottom_left_buttons button:last-child {
+  background-color: rgb(77, 45, 218);
+  color: white;
+  width: 35%;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 12px;
+  transition: 500ms;
+  border: none;
+}
+.header_bottom_left_buttons button:last-child:hover {
+  border: 2px solid rgb(137, 186, 65);
+  width: 40%;
+  font-size: 14px;
+  border-radius: 100px;
+}
 .header_bottom_right {
   flex-basis: 50%;
+}
+.header_bottom_right img {
+  width: 100%;
 }
