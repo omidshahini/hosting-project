@@ -23,7 +23,7 @@ body {
 .header_link {
   position: absolute;
   top: 19px;
-  right: 35px;
+  right: 16rem;
   font-size: 16px;
   text-decoration: none;
   color: white;
@@ -44,7 +44,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 4rem;
+  gap: 15rem;
   margin-top: 1rem;
   position: relative;
 }
@@ -52,7 +52,7 @@ body {
 .nav_menu_items {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 2rem;
   list-style: none;
 }
 
@@ -81,13 +81,13 @@ body {
   color: rgb(97, 97, 215);
   font-weight: 800;
   font-size: 20px;
-  line-height: 1.4rem;
+  line-height: 1.8rem;
 }
 .header_bottom_left p {
   font-size: 13px;
   font-weight: 200;
   margin-top: 1rem;
-  line-height: 120%;
+  line-height: 140%;
 }
 .header_bottom_left_buttons {
   margin-top: 2rem;
@@ -132,4 +132,57 @@ body {
 }
 .header_bottom_right img {
   width: 100%;
+}
+
+/* ↓ Main section */
+.main_section {
+  margin-top: 9rem;
+}
+.main_title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main_title span {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.main_title h3 {
+  margin-top: 1rem;
+  font-size: 30px;
+  font-weight: 500;
+}
+.main_description {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  text-align: center;
+  margin-top: 5rem;
+}
+.main_description h6 {
+  font-size: 25px;
+  color: rgb(76, 76, 209);
+}
+.main_description p {
+  margin-top: 1.5rem;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(44, 54, 100);
+}
+.img_bckgr {
+  width: 100%;
+  background-color: rgb(137, 186, 65);
+  border-radius: 300px 15px;
+  transition: 1500ms;
+}
+.img_bckgr:hover {
+  border-radius: 15px 300px;
+}
+.main_img {
+  max-width: 40rem;
+  margin: 3rem auto;
+
+}
+.main_img img {
+  width: 99%;
 }
