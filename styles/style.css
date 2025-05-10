@@ -263,3 +263,34 @@ body {
 .comment_companies img {
   margin: 1rem 0;
 }
+
+/* ↓ portfolio section */
+.portfolio {
+  margin-top: 5rem;
+}
+.portfolio_title {
+  text-align: center;
+}
+.portfolio_title span {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  color: gray;
+}
+.portfolio_title h4 {
+  margin-top: 1.5rem;
+  font-size: 24px;
+  font-weight: 500;
+}
+.portfoli_images {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.portfoli_images > img {
+  flex-basis: 15%;
+  border-radius: 35px;
+}
