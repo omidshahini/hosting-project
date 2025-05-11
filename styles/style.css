@@ -1,6 +1,4 @@
 
-@import url(/styles/media.css);
-
 @import url(/styles/fonts.css);
 
 * {
@@ -12,6 +10,7 @@
 body {
   font-family: 'poppins';
 }
+
 
 .container {
   max-width: 80rem;
@@ -37,6 +36,9 @@ body {
 }
 .header_link:hover {
   background-color: rgb(137, 186, 65);
+}
+.header_icon {
+  display: none;
 }
 
 .navigation {

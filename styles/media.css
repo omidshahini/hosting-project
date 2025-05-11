@@ -3,17 +3,42 @@
   .container {
     max-width: 960px;
   }
+  
 }
 
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
   }
+  .header_link {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
+  }
+  .nav_menu_items {
+    position: fixed;
+    top: 0;
+    left: -16rem;
+    bottom: 0;
+    flex-direction: column;
+    background-color: rgb(111, 111, 229);
+    width: 16rem;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    transition: 500ms all;
+  }
+  .header_icon {
+    display: block;
+    position: absolute;
+    right: 52px;
+    top: 12px;
+    font-size: 1.8rem;
+    cursor: pointer;
   }
 }
 
