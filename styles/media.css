@@ -40,10 +40,44 @@
     font-size: 1.8rem;
     cursor: pointer;
   }
+  .header_bottom {
+    flex-direction: column-reverse;
+  }
+  .header_bottom_left {
+    text-align: center;
+  }
+  .header_bottom_left_buttons, .main_description, .main_comment_comments, .main_comment_person{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .main_comment {
+    text-align: center;
+  }
+  .main_comment_comments > div {
+    flex-basis: 15rem;
+  }
+  .comment_companies {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
+  }
+  .main_comment_comments > div {
+    flex-basis: 10rem;
+  }
+  .main_comment_person {
+    margin-top: 5px;
+    gap: 1rem;
+  }
+  .footer_top_section {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+  .footer_text {
+    text-align: center;
   }
 }
